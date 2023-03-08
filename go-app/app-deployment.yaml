@@ -14,7 +14,10 @@ spec:
         app: go-app
     spec:
       containers:
-      - image: thammaratchok/golang-pipeline:0.0.1
+      - image: thammaratchok/golang-pipeline:0.0.2
         name: go-app
         ports:
         - containerPort: 80
+
+
+docker pull thammaratchok/golang-pipeline:0.0.1
