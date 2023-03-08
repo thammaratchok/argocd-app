@@ -18,6 +18,3 @@ spec:
         name: go-app
         ports:
         - containerPort: 80
-
-
-docker pull thammaratchok/golang-pipeline:0.0.1
