@@ -14,9 +14,7 @@ spec:
         app: go-app
     spec:
       containers:
-      - image: thammaratchok/golang-pipeline:0.0.5
+      - image: thammaratchok/golang-pipeline:0.0.6
         name: go-app
-        command: [ "/bin/bash", "-c", "--" ]
-        args: [ "while true; do sleep 30; done;" ]
         ports:
-        - containerPort: 3000
+        - containerPort: 80
