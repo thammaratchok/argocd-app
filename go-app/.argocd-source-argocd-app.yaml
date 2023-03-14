@@ -1,3 +1,3 @@
 kustomize:
   images:
-  - thammaratchok/golang-pipeline:0.0.8
+  - thammaratchok/golang-pipeline:0.0.9
